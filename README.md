@@ -13,7 +13,7 @@ It uses a bi-directional LSTM.
 To summarize BERT most simply :
 
 It performs 2 tasks:
-1. Masking : 15 % of the tokens in the original text are chosed randomly 
+1. Masking : 15 % of the tokens in the original text are chosed randomly
 which are masked. Now, masking happens in ways.
 ..* 80 % of the tokens are masken with [MASK].
 ..* 10% are not masked.
@@ -25,3 +25,15 @@ the following sentence is indeeed the next sentence.
 
 
 ## Reference : https://github.com/microsoft/nlp
+
+
+To run the code, please follow the below steps.
+
+Clone the microsoft repo first:
+
+```git clone https://github.com/microsoft/nlp```
+
+Then put the jupyter notebook in the examples folder (You can change the location)
+
+Just change the dataset location if you want to run for your custom dataset.
+Please follow the format of provided data if you want to use the same code.
