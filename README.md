@@ -15,9 +15,9 @@ To summarize BERT most simply :
 It performs 2 tasks:
 1. Masking : 15 % of the tokens in the original text are chosed randomly
 which are masked. Now, masking happens in ways.
-..* 80 % of the tokens are masken with [MASK].
-..* 10% are not masked.
-..* 10 % are masked with random tokens.
+* 80 % of the tokens are masken with [MASK].
+* 10% are not masked.
+* 10 % are masked with random tokens.
 
 2. Next sentence prediction : It has a binary predictor wich perdicts whether
 the following sentence is indeeed the next sentence.
@@ -33,7 +33,7 @@ Clone the microsoft repo first:
 
 ```git clone https://github.com/microsoft/nlp```
 
-Then put the jupyter notebook in the examples folder (You can change the location)
+Then put the jupyter notebook in the examples/named_entity_recognition folder (You can change the location)
 
 Just change the dataset location if you want to run for your custom dataset.
 Please follow the format of provided data if you want to use the same code.
